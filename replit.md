@@ -56,6 +56,15 @@ Preferred communication style: Simple, everyday language.
 - Toast notifications for user feedback
 - Form validation with proper error handling
 
+## Recent Changes
+
+### January 13, 2025 - Logo and Footer Updates
+- Updated all journal tool logos to use custom SVG placeholders with appropriate branding colors
+- Modified footer to show correct developers: Dr. Luiz Fernando Rodrigues Jr. and Kalleby Evangelho Mota
+- Updated GitHub link to https://github.com/KallebyX
+- Removed contact information from footer as requested
+- Fixed storage interface to include analysis creation and retrieval methods
+
 ## Data Flow
 
 ### Analysis Workflow

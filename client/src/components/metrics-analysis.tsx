@@ -30,28 +30,28 @@ const metricsTools = [
     description: "A principal fonte mundial para encontrar o Fator de Impacto (JIF) e os quartis dos periódicos científicos. Requer acesso via Web of Science.",
     badges: ["Fator de Impacto", "Indexado em WoS"],
     url: "https://jcr.clarivate.com/",
-    logo: "https://clarivate.com/wp-content/uploads/2022/11/clarivate-logo-dark-RGB-300x53.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjRkY2NjAwIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkNsYXJpdmF0ZSBKQ1I8L3RleHQ+Cjwvc3ZnPgo="
   },
   {
     name: "Scopus",
     description: "Analise métricas abrangentes de revistas (CiteScore, SJR, SNIP) e de autores (Índice H, publicações, citações) na maior base de dados científica.",
     badges: ["CiteScore / Índice H", "Indexado em Scopus"],
     url: "https://www.scopus.com",
-    logo: "https://www.elsevier.com/__data/assets/image/0009/825669/scopus-logo-srgb.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjRkY2NjAwIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPlNjb3B1czwvdGV4dD4KPC9zdmc+Cg=="
   },
   {
     name: "SCImago Journal Rank",
     description: "Plataforma gratuita que utiliza dados da Scopus para classificar e analisar periódicos por quartis, H-Index e indicador SJR de forma acessível.",
     badges: ["SJR / Quartis", "Acesso Livre"],
     url: "https://www.scimagojr.com/",
-    logo: "https://www.scimagojr.com/img/logo.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjNDA4MDQwIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPlNDSW1hZ288L3RleHQ+Cjwvc3ZnPgo="
   },
   {
     name: "Google Scholar Metrics",
     description: "Visualize as principais publicações por área e idioma, classificadas pelo índice h5. Permite criar perfil de autor e acompanhar métricas acadêmicas.",
     badges: ["Índice h5", "Acesso Livre"],
     url: "https://scholar.google.com/citations?view_op=top_venues&hl=pt-BR",
-    logo: "https://scholar.google.com/scholar/images/google_scholar_logo_M_bleed.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjNDI4NUY0Ii8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkdvb2dsZSBTY2hvbGFyPC90ZXh0Pgo8L3N2Zz4K"
   }
 ];
 

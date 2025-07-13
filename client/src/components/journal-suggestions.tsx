@@ -9,28 +9,28 @@ const journalTools = [
     description: "Cole o título ou resumo do seu artigo para receber uma lista de revistas relevantes da base de dados Medline com análise baseada em IA.",
     badges: ["Baseado em IA", "Busca por Resumo"],
     url: "https://jane.biosemantics.org/",
-    logo: "https://jane.biosemantics.org/img/logo-jane.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjMDA2NkNDIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjIwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkpBTkU8L3RleHQ+Cjwvc3ZnPgo="
   },
   {
     name: "Elsevier Journal Finder",
     description: "Utiliza inteligência artificial avançada para sugerir revistas da editora Elsevier que melhor se encaixam com seu resumo e campo de pesquisa.",
     badges: ["Baseado em IA", "Editora Específica"],
     url: "https://journalfinder.elsevier.com/",
-    logo: "https://www.elsevier.com/__data/assets/image/0011/69365/elsevier-wordmark-1-srgb.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjRkY2NjAwIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkVsc2V2aWVyPC90ZXh0Pgo8L3N2Zz4K"
   },
   {
     name: "Wiley Journal Finder",
     description: "Insira o texto do seu manuscrito para encontrar as melhores opções de publicação no extenso portfólio de revistas científicas da Wiley.",
     badges: ["Baseado em IA", "Editora Específica"],
     url: "https://journalfinder.wiley.com/search?type=match",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Wiley_logo.svg/2560px-Wiley_logo.svg.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjMDA1NkE0Ii8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPldpbGV5PC90ZXh0Pgo8L3N2Zz4K"
   },
   {
     name: "T&F Journal Suggester",
     description: "Analisa seu resumo científico para recomendar as publicações mais adequadas dentro do catálogo especializado da editora Taylor & Francis.",
     badges: ["Baseado em IA", "Editora Específica"],
     url: "https://authorservices.taylorandfrancis.com/publishing-your-research/choosing-a-journal/journal-suggester/",
-    logo: "https://authorservices.taylorandfrancis.com/wp-content/uploads/2022/12/tandf-logo.png"
+    logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiBmaWxsPSIjRDczNTAyIi8+Cjx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPlRheWxvciAmYW1wOyBGcmFuY2lzPC90ZXh0Pgo8L3N2Zz4K"
   }
 ];
 
