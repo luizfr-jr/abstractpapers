@@ -39,11 +39,19 @@ git push origin main
 - **Install Command:** `npm install`
 - **Root Directory:** `.` (deixe vazio ou ponto)
 
-### 4. Configuração Corrigida
+### 4. Configuração Corrigida ✅
 O `vercel.json` foi corrigido para:
 - Servir arquivos estáticos do `dist/public`
 - Rotear API para `/api/*`
+- Servir arquivos JavaScript/CSS com MIME type correto
 - Servir SPA corretamente com fallback para `index.html`
+- Corrigido problema de "tela em branco" no deploy
+
+### 5. Problemas Resolvidos
+✅ **Tela em branco:** Corrigido roteamento de arquivos estáticos
+✅ **Erro MIME type:** JavaScript/CSS agora servidos corretamente
+✅ **Assets não carregando:** Roteamento específico para `/assets/`
+✅ **SPA routing:** Fallback correto para `index.html`
 
 ### 4. Configurar Variáveis de Ambiente
 No dashboard do Vercel:
