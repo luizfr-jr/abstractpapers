@@ -74,10 +74,32 @@ git push -u origin main
 
 Para deploy automático, você pode usar plataformas como:
 
-#### Vercel
-1. Conecte seu repositório GitHub ao Vercel
-2. Configure as variáveis de ambiente no dashboard
-3. Deploy automático a cada push
+#### Vercel (Recomendado)
+1. **Conectar repositório:**
+   - Acesse https://vercel.com
+   - Clique em "New Project"
+   - Conecte seu repositório GitHub: `https://github.com/luizfr-jr/abstractpapers`
+   - Selecione o projeto e clique em "Import"
+
+2. **Configuração automática:**
+   - O Vercel detectará automaticamente o `vercel.json`
+   - Build Command: `npm run build`
+   - Output Directory: `dist/public`
+   - Install Command: `npm install`
+
+3. **Configurar variáveis de ambiente:**
+   - No dashboard do Vercel, vá para Settings → Environment Variables
+   - Adicione as seguintes variáveis:
+     ```
+     GEMINI_API_KEY=sua_chave_gemini_aqui
+     DATABASE_URL=sua_url_postgresql_aqui
+     NODE_ENV=production
+     ```
+
+4. **Deploy automático:**
+   - Cada push para `main` fará deploy automático
+   - Branches de feature criam preview deployments
+   - Logs disponíveis em tempo real
 
 #### Railway
 1. Conecte seu repositório ao Railway
