@@ -52,6 +52,9 @@ O `vercel.json` foi corrigido para:
 ✅ **Erro MIME type:** JavaScript/CSS agora servidos corretamente
 ✅ **Assets não carregando:** Roteamento específico para `/assets/`
 ✅ **SPA routing:** Fallback correto para `index.html`
+✅ **API 404/500 errors:** Função serverless corrigida para ser self-contained
+✅ **Imports externos:** Todos os módulos necessários integrados na função API
+✅ **GEMINI_API_KEY:** Verificação adequada da chave de API configurada
 
 ### 4. Configurar Variáveis de Ambiente
 No dashboard do Vercel:
