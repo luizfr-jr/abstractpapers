@@ -18,7 +18,7 @@ NODE_ENV=production
 
 ## Passos para Deploy
 
-### 1. Push para GitHub
+### 1. Push para GitHub ✅
 ```bash
 git add .
 git commit -m "Configure for Vercel deployment"
@@ -29,15 +29,21 @@ git push origin main
 1. **Acesse:** https://vercel.com
 2. **Login:** Com sua conta GitHub
 3. **Novo Projeto:** Clique em "New Project"
-4. **Importar:** Selecione o repositório `abstractpapers`
-5. **Configurar:** As configurações serão detectadas automaticamente
+4. **Importar:** Selecione o repositório `luizfr-jr/abstractpapers`
+5. **Configurar:** Use as configurações abaixo:
 
-### 3. Configuração Automática
-O Vercel detectará automaticamente:
-- **Framework:** Vite
+### 3. Configurações Manuais no Vercel
+**IMPORTANTE:** Configure manualmente estas opções:
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist/public`
 - **Install Command:** `npm install`
+- **Root Directory:** `.` (deixe vazio ou ponto)
+
+### 4. Configuração Corrigida
+O `vercel.json` foi corrigido para:
+- Servir arquivos estáticos do `dist/public`
+- Rotear API para `/api/*`
+- Servir SPA corretamente com fallback para `index.html`
 
 ### 4. Configurar Variáveis de Ambiente
 No dashboard do Vercel:
